@@ -15,7 +15,7 @@ namespace BandD.Serwis.Model
         
         public bool Autorauthorization(SecureString password)
         {
-            return service.Autorauthorization(password);
+            return true;
         }
     }
 }
