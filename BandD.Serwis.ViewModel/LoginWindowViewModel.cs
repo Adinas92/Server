@@ -11,6 +11,7 @@ namespace BandD.Serwis.ViewModel
     {
 
         private LoginModel model = new LoginModel();
+        // czemu tutaj nie trzeba tworzyc intancji klasy tylko wystarczy okreslenie jej typu?
         private Login login;
         private string ipServer;
         private SecureString securePassword;
@@ -27,7 +28,7 @@ namespace BandD.Serwis.ViewModel
             get { return ipServer; }
             set { ipServer = value; OnPropertyChanged(); }
         }
-
+        // wczesniej utworzylem zmienna securePassword a teraz zmienna publiczna SecurePassword dlaczego jak dalej i tak przekazuje securePassword -> patrz Authorization, czy to chodzi ze ta zmienna jest private wiec moge a tak to public dopiero moge w innych klasach?
         public SecureString SecurePassword
         {
             get { return securePassword; }

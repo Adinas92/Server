@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace BandD.Serwis.Class
 {
+    // nie rozumiem co to jest 
     public abstract class BaseClass : INotifyPropertyChanged
     {
         [Conditional("DEBUG")]

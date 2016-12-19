@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BandD.Serwis.Tools
 {
+    // a ta przestrzen nazw w jakim celu?
     public static class StaticResource
     {
         public static string ftpUserName = "servis.bartoszlisowski1-admin";

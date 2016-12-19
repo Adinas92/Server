@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BandD.Serwis.Class
 {
+    // czemu to nie jest utworzone w ModeluLogin?
     public class Login: BaseClass
     {
         public Guid LoginId { get; set; }

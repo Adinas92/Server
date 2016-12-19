@@ -9,13 +9,14 @@ namespace BandD.Serwis.ViewModel
 {
     public class MainWindowViewModel
     {
-        public MailModel mailModel;
+        public MailModel mailModel = new MailModel();
 
+        //czyli raz zmienna jest wywolywana jako metoda a za innym razem jest przekazywana jako zmienna? i do tego ta wlasciwosc get set?
         public string mail { get; set; }
 
         public MainWindowViewModel()
         {
-            mailModel = new MailModel();
+            
             przekazDoModelu(mail);
         }
 
